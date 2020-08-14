@@ -1,0 +1,18 @@
+Formulaire d'inscription
+NodeJs (Express, mongoose), mongoDb
+
+1/ Installer Mongodb
+
+2/ Sur le Fichier dézippé ouvrir la fenetre PowerShell:
+Utiliser PowerShell par exemple => CTL + Shift + Clic Droit => Ouvrir la fenetre Powershell
+
+3/ Installer => npm install
+
+4/ Lancer => npm run watch
+
+5/ Dans le navigateur => http://localhost:3000/
+
+
+
+
+

@@ -1,0 +1,13 @@
+@font-face {
+	font-family: "Capture it";
+	src: url('Capture it.ttf')
+}
+
+.navbar-brand {
+		font-family: Capture it;
+}
+
+form {
+	width: 33%;
+	margin-left: 33%;
+}

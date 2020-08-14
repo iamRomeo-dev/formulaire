@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Accueil</title>
+  <link rel="stylesheet" href="form.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!--  NavBar  -->  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="http://localhost:3000/">DwwM</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="http://localhost:3000/form">Inscription <span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:3000/login">Connexion</a>
+          </li>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <h2 style="text-align: center; margin-top: 1em">Votre mot de passe ou adresse mail est oublié...</h2>
+
+  <!-- Default form login -->
+  <form class="text-center border border-light p-5" action="mailto:moi@email.fr" method="POST">
+
+    <p class="h4 mb-4">On s'en occupe</p>
+
+
+    <input type="text" class="form-control mb-4" value="" name="nom" placeholder="Nom">
+
+    <input type="text" class="form-control mb-4" value="" name="prenom" placeholder="Prénom">
+
+    <div class="d-flex justify-content-around">
+      <div>
+        <!-- Remember me -->
+        <div class="custom-control custom-checkbox">
+
+        </div>
+      </div>
+      <div>
+
+      </div>
+    </div>
+
+    <!-- Sign in button -->
+    <button class="btn btn-info btn-block my-4" type="submit">Nous écrire</button>
+
+    
+
+    <!-- Social login -->
+    <a href="#" class="mx-2" role="button"><i class="fab fa-facebook-f light-blue-text"></i></a>
+    <a href="#" class="mx-2" role="button"><i class="fab fa-twitter light-blue-text"></i></a>
+    <a href="#" class="mx-2" role="button"><i class="fab fa-linkedin-in light-blue-text"></i></a>
+    <a href="#" class="mx-2" role="button"><i class="fab fa-github light-blue-text"></i></a>
+
+  </form>
+  <!-- Default form login -->
+
+</body>
+</html>
+
